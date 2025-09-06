@@ -1,0 +1,93 @@
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Outfit:wght@100..900&display=swap');
+    :root { 
+        --Blue500: hsl(215, 51%, 70%); 
+        --Cyan400: hsl(178, 100%, 50%);
+        --Blue950: hsl(217, 54%, 11%); 
+        --Blue900: hsl(216, 50%, 16%);
+        --Blue800: hsl(215, 32%, 27%);
+        --White: hsl(0, 0%, 100%);
+
+        /* - Blue 500: hsl(215, 51%, 70%)
+        - Cyan 400: hsl(178, 100%, 50%)
+        ### Neutral
+        - Blue 950 (main BG): hsl(217, 54%, 11%)
+        - Blue 900 (card BG): hsl(216, 50%, 16%)
+        - Blue 800 (line): hsl(215, 32%, 27%)
+        - White: hsl(0, 0%, 100%) 
+        -- font famiy : Outfit ; 
+        font-size: 18px; 
+        */
+    };
+    * { 
+      margin:0px; 
+      padding: 0px; 
+      box-sizing: border-box;
+    }
+    body { 
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      flex-direction: column;
+      font-size: 16px;
+      font-family: 'Outfit', sans-serif , ;
+      background-color: var(--Blue950);
+    }
+    .card { 
+      background-color: var(--Blue900);
+      padding: 2rem;
+      border-radius: 3%;
+    }
+    .card .equilibrium {
+      border-radius: 3%;
+    }
+    .card h1 { 
+      color: var(--White);
+      font-size: 3rem;
+    }
+    .card p:first-of-type { 
+      color: var(--Blue500);
+      font-size: 1.5rem;
+      width: 100%;
+    }
+    .line-1 { 
+      display: flex;
+      justify-content: space-between;
+      font-size: 1.6rem;
+      color: var(--Cyan400);
+      padding: 1.5rem 0; 
+    }
+    .line-1 span:last-child { 
+      color: var(--Blue500);
+    }
+    .last_span { 
+      display: flex;
+      align-items: center;
+    }
+    hr { 
+      margin: 0.5rem;
+    }
+    .last_span img {
+      width: 10%;
+      height: 10%;
+      border: 1px solid var(--White);
+      border-radius: 50%;
+     }
+     .last_span p { 
+      padding-left: 2rem;
+     }
+     .last_p { 
+      font-size: 1.8rem !important; 
+     }
+     .avatar_span { 
+      color: var(--White);
+     }
+     .attribution { 
+      position: relative;
+      top: 13rem;
+      
+      color: white;
+     }
